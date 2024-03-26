@@ -51,7 +51,7 @@ jobs:
         cd $cliFileName
         chmod +x install.sh
         ./install.sh system
-        cd /home/runner/work/vulnado-customworkflow1/vulnado-customworkflow1/
+        cd /home/runner/work/vulnado-customworkflow-bugtest/vulnado-customworkflow-bugtest/
         veracode package --source . --output veracode-artifacts --trust
         zip veracode-artifact.zip veracode-artifacts/* -x .zip .tar .tar.gz .gz
     - uses: actions/upload-artifact@v4
