@@ -1,4 +1,4 @@
-# Vulnado - Intentionally Vulnerable Java Application -invoke scan 11
+# Vulnado - Intentionally Vulnerable Java Application -invoke scan 
 
 
 
